@@ -8,6 +8,6 @@
     </head>
     <body class='standard'>
         <?php require "header.php"; ?>
-        
+
     </body>
 </html>

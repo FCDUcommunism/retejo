@@ -9,19 +9,19 @@
     <body class='standard'>
         <?php require "header.php"; ?>
         <hr style="border: none; margin-bottom: 20px;"/>
-        <div class="wrapper" class="card">
-            <div class="card">
+        <div class="flag" class="card">
+            <div class="card flagcard">
                 <div>
                     <img src="img/fcdu.png" alt="flag" class="card">
                 </div>
+                <div class="card">наш флаг</div>
             </div>
-            <div class="card">наш флаг</div>
-            <div class="card">
+            <div class="card flagcard">
                 <div>
                     <img src="img/emblem.png" alt="emblem" class="card">
                 </div>
+                <div class="card">наш герб</div>
             </div>
-            <div class="card">наш герб</div>
         </div>
     </body>
 </html>

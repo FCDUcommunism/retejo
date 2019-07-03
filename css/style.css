@@ -57,19 +57,27 @@ img.card {
   display : inline;
 }
 
-.wrapper > div {
+.flag > div {
+  padding          : 10px;
+  background-color : #333;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.flag > img {
   padding          : 10px;
   background-color : #333;
 }
 
-.wrapper > img {
-  padding          : 10px;
-  background-color : #333;
-}
-
-.wrapper {
+.flag {
   display               : grid;
   grid-row-gap          : 20px;
+  grid-template-columns : 1fr;
+}
+
+.flagcard {
+  display               : grid;
+  grid-column-gap: 1%;
   grid-template-columns : 4fr 1fr;
 }
 
